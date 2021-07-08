@@ -11,7 +11,7 @@ import { myPic } from '../../constants/constants';
 
 const Header = () => ( <
     div className = "flex justify-between mt-10" >
-    < SectionTitle className="ml-10 lg:ml-0 top" >
+    < SectionTitle className="ml-5 lg:ml-0 top" >
     Ahmed Abdo < /SectionTitle> <
     div className = "pic" >
 
