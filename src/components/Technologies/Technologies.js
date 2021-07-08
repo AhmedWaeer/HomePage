@@ -10,7 +10,7 @@ const Technologies = () =>  (
     <SectionText>
     Here you will find a list of some of my skills i have gained throughout my journey and that I am continually working on.
     </SectionText>
-    <div className="text-4xl text-black font-light list-disc ">
+    <div className="p-5 lg:p-0 text-4xl text-black font-light list-disc ">
     <SectionText>
       <ul className="" >
         <li className="list-disc">Building modern, reactive frontends/UIs with<span className="text-white font-bold bg-blue-800 rounded-md"> React </span>, including packages and libraries such as Create React App, Redux, React Router, React Helmet.</li>
