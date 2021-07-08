@@ -20,7 +20,7 @@ const Projects = () => (
                  <div className="mt-10 mb-10" > 
                  <div className = "text-black font-bold text-3xl mt-5 font-sans" > { p.title } < /div>  
                   </div >
-                   <div className = "text-black font-sans" > { p.description } < /div > 
+                   <div className = "text-black font-sans p-5" > { p.description } < /div > 
                   <TitleContent > Stack </TitleContent> 
 
                 <div className = "flex flex-col float-left" >
