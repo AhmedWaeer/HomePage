@@ -34,7 +34,7 @@ const Projects = () => (
     </GridContainer>  
     <SectionTitle>Others</SectionTitle>
     <SectionText>
-        During my Software development learing period i have created websites for clients and NGOS(volnteering) here we go some of my work.
+        During my Software development learing period i have created websites for clients and NGOS(volunteering) here we go some of my work.
        
         <List>
       <ListItem>
