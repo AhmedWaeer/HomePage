@@ -41,7 +41,7 @@ const Projects = () => (
         <ListContainer>
           <ListTitle>Local Brands and Artists</ListTitle>
           <ListParagraph>
-          <a href="https://talparec.com/" className="font-bold text-red-400 hover:bg-blue-300"> talparac </a> <br />
+          <a href="https://talparec.com/" className="font-bold text-red-400 hover:bg-blue-300"> talparec </a> <br />
           <a href="http://gomar.net/" className="font-bold text-red-400 hover:bg-blue-300"> gomar </a>
           </ListParagraph>
         </ListContainer>
