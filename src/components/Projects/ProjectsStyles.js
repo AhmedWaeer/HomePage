@@ -18,7 +18,6 @@ row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
   padding-bottom: 0;
 }
 
@@ -30,6 +29,8 @@ export const BlogCard = styled.div `
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+     margin-top:10px;
+    margin-bottom:10px;
   }
 `;
 export const TitleContent = styled.div `

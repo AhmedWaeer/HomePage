@@ -44,10 +44,10 @@ export const projects = [{
         id: 4,
     }, {
         title: 'A.ABDO Home',
-        description: "My own homepage, displaying a collection of my most recent projects. Built with Next.Js (+ React), deployed on Netlify.",
+        description: "My own homepage, displaying a collection of my most recent projects. Built with Next.Js (+ React), deployed on Vercel.",
         image: '/images/home.PNG',
         tags: ['React', 'NextJS'],
-        source: '',
+        source: 'https://aabdo.me',
         visit: 'https://github.com/AhmedWaeer/HomePage.git',
         id: 5,
     },

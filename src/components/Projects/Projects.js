@@ -20,7 +20,7 @@ const Projects = () => (
                  <div className="mt-10 mb-10" > 
                  <div className = "text-black font-bold text-3xl mt-5 font-sans" > { p.title } < /div>  
                   </div >
-                   <div className = "text-black font-sans" > { p.description } < /div > 
+                   <div className = "text-black font-sans p-5" > { p.description } < /div > 
                   <TitleContent > Stack </TitleContent> 
 
                 <div className = "flex flex-col float-left" >
@@ -34,14 +34,14 @@ const Projects = () => (
     </GridContainer>  
     <SectionTitle>Others</SectionTitle>
     <SectionText>
-        During my Software development learing period i have created websites for clients and NGOS(volnteering) here we go some of my work.
+        During my Software development learing period i have created websites for clients and NGOS(volunteering) here we go some of my work.
        
         <List>
       <ListItem>
         <ListContainer>
           <ListTitle>Local Brands and Artists</ListTitle>
           <ListParagraph>
-          <a href="https://talparec.com/" className="font-bold text-red-400 hover:bg-blue-300"> talparac </a> <br />
+          <a href="https://talparec.com/" className="font-bold text-red-400 hover:bg-blue-300"> talparec </a> <br />
           <a href="http://gomar.net/" className="font-bold text-red-400 hover:bg-blue-300"> gomar </a>
           </ListParagraph>
         </ListContainer>
