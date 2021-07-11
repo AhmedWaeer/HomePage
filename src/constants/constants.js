@@ -27,7 +27,7 @@ export const projects = [{
     },
     {
         title: 'Weather Dashboard',
-        description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+        description: "A weather dashboard built using vanilla JS, HTML and CSS (Bootstrap). Uses the Open Weather API to query for data.",
         image: '/images/weather.PNG',
         tags: ['React', 'ChatEngine', 'Firebase'],
         source: 'https://weatherdb.netlify.app/',
@@ -36,7 +36,7 @@ export const projects = [{
     },
     {
         title: 'Workout Tracker',
-        description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+        description: "A full-stack workout tracker deployed on Heroku. Uses Mongoose + MongoDB for persistence.",
         image: '/images/wrkout.PNG',
         tags: ['React', 'ChatEngine', 'Firebase'],
         source: 'https://your-tracker.herokuapp.com/',
