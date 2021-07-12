@@ -12,7 +12,7 @@ const Hero = () => (
     <SectionTitle > About Me < /SectionTitle>
     
      < SectionText >
-    I am a Software developer with Engineering Background and experience in automation technology, industrial automation, and Account Management. My work experience in different fields has allowed me to grow as a professional,and gain communication, analytical, and technical skills that shaped the person who i am now.
+    I am a Software developer with Engineering Background and experience in automation technology, industrial automation, and Account Management. My work experience in different fields has allowed me to grow as a professional, and gain communication, analytical, and technical skills that shaped the person who i am now.
     </ SectionText>
     < SectionText >
     In addition to  my technical work experiance as an Automation Engineer that helped me to take my technical knowledge to the next level. I had the opportunity to Work as an Account Manager at Chevron, one of the leaders in Oil and gas market worldwide, which has strengthened my communication skills and discipline.
