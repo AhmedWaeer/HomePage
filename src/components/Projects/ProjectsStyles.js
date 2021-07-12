@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img `
   width:100%;
-  height:100%;
+  height: 100%;
   border:solid;
   object-fit: cover;
   overflow: hidden;
@@ -30,12 +30,15 @@ export const BlogCard = styled.div `
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin-top:10px;
+    margin-bottom:10px;
   }
 `;
 export const TitleContent = styled.div `
   text-align: center;
   z-index: 20;
   width: 100%;
+  margin-bottom:20px;
 
 `;
 
@@ -90,7 +93,7 @@ export const UtilityList = styled.ul `
 `;
 
 export const ExternalLinks = styled.a `
-color:rgb(191, 59, 59);
+color:#ff0000;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 border-radius: 15px;
@@ -101,9 +104,12 @@ font-weight: bold;
 export const TagList = styled.ul `
 display: flex;
 justify-content: space-around;
-padding: 2rem;
+padding: 1rem;
 `
 export const Tag = styled.li `
-color: #d8bfbf;
+color:#ff0000;
+font-weight: bold;
 font-size: 1.5rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  padding:.3rem
 `

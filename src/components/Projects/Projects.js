@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import {List,ListItem,ListContainer,ListParagraph,ListIcon,ListTitle} from '../Technologies/TechnologiesStyles';
@@ -20,13 +20,18 @@ const Projects = () => (
                  <div className="mt-10 mb-10" > 
                  <div className = "text-black font-bold text-3xl mt-5 font-sans" > { p.title } < /div>  
                   </div >
-                   <div className = "text-black font-sans" > { p.description } < /div > 
+                   <div className = "text-black font-sans p-5" > { p.description } < /div > 
                   <TitleContent > Stack </TitleContent> 
 
                 <div className = "flex flex-col float-left" >
-                <ExternalLinks href = { p.visit } > Code < /ExternalLinks> < ExternalLinks href = { p.source } > Source < /ExternalLinks >
+                <ExternalLinks href = { p.visit } > Code < /ExternalLinks> < ExternalLinks href = { p.source } > Live < /ExternalLinks >
                   </div>
                 </div >
+                <TagList>
+                {p.tags.map((t, i) => {
+                  return <Tag key={i}>{t}</Tag>;
+                })}
+              </TagList>
                 </BlogCard>
             );
         })
@@ -41,8 +46,8 @@ const Projects = () => (
         <ListContainer>
           <ListTitle>Local Brands and Artists</ListTitle>
           <ListParagraph>
-          <a href="https://talparec.com/" className="font-bold text-red-400 hover:bg-blue-300"> talparac </a> <br />
-          <a href="http://gomar.net/" className="font-bold text-red-400 hover:bg-blue-300"> gomar </a>
+          <a href="https://talparec.com/" className="font-bold text-red-600 hover:bg-blue-300"> talparac </a> <br />
+          <a href="http://gomar.net/" className="font-bold text-red-600 hover:bg-blue-300"> gomar </a>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -50,8 +55,8 @@ const Projects = () => (
         <ListContainer>
           <ListTitle>Human rights and engaged NGOs</ListTitle>
           <ListParagraph>
-           <a href="https://www.arabfilmnetwork.com/" className="font-bold text-red-400 hover:bg-blue-300"> arabfilmnetwork</a> <br />
-           <a href="https://ma3mal612.com/" className="font-bold text-red-400 hover:bg-blue-300"> ma3mal612</a>
+           <a href="https://www.arabfilmnetwork.com/" className="font-bold text-red-600 hover:bg-blue-300"> arabfilmnetwork</a> <br />
+           <a href="https://ma3mal612.com/" className="font-bold text-red-600 hover:bg-blue-300"> ma3mal612</a>
           </ListParagraph>
         </ListContainer>
       </ListItem>
