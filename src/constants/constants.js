@@ -58,11 +58,35 @@ export const projects = [
     },
     {
         title: 'Weather Dashboard',
+<<<<<<< HEAD
         description: "A weather dashboard. Uses the Open Weather API to query for data.",
+=======
+        description: "A weather dashboard built using vanilla JS, HTML and CSS (Bootstrap). Uses the Open Weather API to query for data.",
+>>>>>>> a5263d386449c27fc6e9a49930b145d2c8eb98fe
         image: '/images/weather.PNG',
         tags: ['#HTML','#CSS' ,'#JavaScript'],
         source: 'https://weatherdb.netlify.app/',
         visit: 'https://github.com/AhmedWaeer/Weather-Dashboard.git',
+<<<<<<< HEAD
+=======
+        id: 3,
+    },
+    {
+        title: 'Workout Tracker',
+        description: "A full-stack workout tracker deployed on Heroku. Uses Mongoose + MongoDB for persistence.",
+        image: '/images/wrkout.PNG',
+        tags: ['React', 'ChatEngine', 'Firebase'],
+        source: 'https://your-tracker.herokuapp.com/',
+        visit: 'https://github.com/AhmedWaeer/Workout-Tracker.git',
+        id: 4,
+    }, {
+        title: 'A.ABDO Home',
+        description: "My own homepage, displaying a collection of my most recent projects. Built with Next.Js (+ React), deployed on Vercel.",
+        image: '/images/home.PNG',
+        tags: ['React', 'NextJS'],
+        source: 'https://aabdo.me',
+        visit: 'https://github.com/AhmedWaeer/HomePage.git',
+>>>>>>> a5263d386449c27fc6e9a49930b145d2c8eb98fe
         id: 5,
     },
   
