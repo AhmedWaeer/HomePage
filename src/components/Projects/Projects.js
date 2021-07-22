@@ -22,11 +22,7 @@ const Projects = () => (
                   </div >
                    <div className = "text-black font-sans p-5" > { p.description } < /div > 
                   <TitleContent > Stack </TitleContent> 
-     <TagList>
-                {p.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
-                })}
-              </TagList>
+
                 <div className = "flex flex-col float-left" >
                 <ExternalLinks href = { p.visit } > Code < /ExternalLinks> < ExternalLinks href = { p.source } > Live < /ExternalLinks >
                   </div>
