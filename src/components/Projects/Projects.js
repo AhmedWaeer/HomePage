@@ -27,7 +27,7 @@ const Projects = () => (
                 <ExternalLinks href = { p.visit } > Code < /ExternalLinks> < ExternalLinks href = { p.source } > Live < /ExternalLinks >
                   </div>
                 </div >
-                <TagList>
+     <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
                 })}

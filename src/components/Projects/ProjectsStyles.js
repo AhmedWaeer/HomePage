@@ -29,19 +29,16 @@ export const BlogCard = styled.div `
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-<<<<<<< HEAD
+
     margin-top:10px;
-=======
-     margin-top:10px;
->>>>>>> a5263d386449c27fc6e9a49930b145d2c8eb98fe
-    margin-bottom:10px;
+    margin-bottom:50px;
   }
 `;
 export const TitleContent = styled.div `
   text-align: center;
   z-index: 20;
   width: 100%;
-  margin-bottom:20px;
+  margin-bottom:10px;
 
 `;
 
